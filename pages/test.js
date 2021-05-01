@@ -7,6 +7,7 @@ export default function test() {
             size="24px"
             variant="small-caps"
             family="Arial, Helvetica, sans-serif"
+            weight="700"
             padding="0px 200px 0px 200px"
             margin="20px 0px 0px 0px"
         />;
