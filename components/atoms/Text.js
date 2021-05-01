@@ -1,5 +1,5 @@
 
-export default function paragraph({ value, size, variant, family, style, weight, color, margin, padding, align }) {
+export default function AtomText({ value, size, variant, family, style, weight, color, margin, padding, align }) {
     return (
         <>
             <p style={{
@@ -13,7 +13,8 @@ export default function paragraph({ value, size, variant, family, style, weight,
                 padding: padding,
                 textAlign: align
 
-            }}>{value}</p>
+            }}>
+                {value}</p>
         </>
     );
 }
