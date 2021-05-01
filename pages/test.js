@@ -2,7 +2,8 @@ import Paragraph from "../components/atoms/paragraph";
 
 
 export default function test() {
-    return <>
+    return
+    <>
         <Paragraph value="Patrick Armando"
             size="24px"
             variant="small-caps"
