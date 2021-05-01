@@ -1,5 +1,5 @@
 
-export default function paragraph({ value, size, variant, family, style, weight, color }) {
+export default function paragraph({ value, size, variant, family, style, weight, color, margin, padding, align }) {
     return (
         <>
             <p style={{
@@ -9,6 +9,9 @@ export default function paragraph({ value, size, variant, family, style, weight,
                 fontStyle: style,
                 fontWeight: weight,
                 color: color,
+                margin: margin,
+                padding: padding,
+                textAlign: align
 
             }}>{value}</p>
         </>
